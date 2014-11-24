@@ -2,11 +2,11 @@ Jenkins deployment to a Cloud Foundry based PaaS
 ================================================
 
 # Application Overview
-<p align="left"><img src="https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png"/></p>
+<img style="float: left; width: 100px;" src="https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png"/>
 
 [Jenkins](http://jenkins-ci.org/) is an open source continuous integration tool written in Java. It allows to create extensive test workflow and monitor this process with web UI. . You can find its sources in [Github repo](https://github.com/jenkinsci/jenkins). 
 
-
+<p style="clear: both">
 
 # Deploy to Cloud Foundry
 
