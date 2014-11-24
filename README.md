@@ -13,8 +13,11 @@ https://github.com/allomov/jenkins-buildpack
 # Deploy to Cloud Foundry
 
 There are several ways to deploy Jenkins to Cloud Foundry as an app. 
+
 **Using custom buildpack and manifest:** `cf push`.
-**Using java-buildpack:** you need to rebuild Jenkins with [build-for-using-tomcat.sh]() script and run `cf push` (see [considerations]() for details).
+
+**Using java-buildpack:** you need to rebuild Jenkins with [build-for-using-tomcat.sh](https://github.com/Altoros/cf-example-jenkins/blob/master/build-for-using-tomcat.sh) script and run `cf push` (see [considerations](https://github.com/Altoros/cf-example-jenkins#considerations) for details).
+
 After successful deployment you'll be able to see Jenkins using following URL `http://jenkins.<cloud-foundry-domain>/`.
 
 ## Considerations
