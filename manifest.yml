@@ -1,0 +1,5 @@
+applications:
+  - name: jenkins
+    path: jenkins.war
+    buildpack: https://github.com/Altoros/jenkins-buildpack
+    memory: 3G
