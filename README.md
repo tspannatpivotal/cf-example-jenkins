@@ -40,15 +40,15 @@ Cloud Foundry has a [java-buildpack](https://github.com/cloudfoundry/java-buildp
 
 ## Manifest
 ```yaml
-applications:
   - name: jenkins
+applications:
     path: jenkins.war
     buildpack: https://github.com/Altoros/jenkins-buildpack
     memory: 3G
 ```
 
 ## Troubleshooting
-Jenkins is very demanding memory application: it is recomended to run Jenkins on instances with at least 2G of RAM. You can also change memory consumption with [parameters](https://wiki.jenkins-ci.org/display/JENKINS/Starting+and+Accessing+Jenkins) in [srating command](http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#start-commands) or [build attributes](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/java.html).
+Jenkins is very demanding memory application: it is recomended to run Jenkins on instances with at least 2G of RAM. You can also change memory consumption with [parameters](https://wiki.jenkins-ci.org/display/JENKINS/Starting+and+Accessing+Jenkins) in [starting command](http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#start-commands) or [build attributes](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/java.html).
 
 
 ## Questions
