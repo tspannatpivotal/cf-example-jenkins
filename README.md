@@ -40,8 +40,8 @@ Cloud Foundry has a [java-buildpack](https://github.com/cloudfoundry/java-buildp
 
 ## Manifest
 ```yaml
-  - name: jenkins
 applications:
+  - name: jenkins
     path: jenkins.war
     buildpack: https://github.com/Altoros/jenkins-buildpack
     memory: 3G
